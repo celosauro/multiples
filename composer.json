@@ -1,0 +1,16 @@
+{
+    "name": "mandrade/multiples",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Marcelo de Andrade",
+            "email": "andrade.asmarcelo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Multiples\\": "src/"
+        }
+    }
+}
