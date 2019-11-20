@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-require_once "../vendor/autoload.php";
+require_once "vendor/autoload.php";
 
 $number = 100;
 for ($i = 1; $i <= $number; $i++) {
