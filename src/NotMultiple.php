@@ -2,7 +2,7 @@
 
 namespace Multiples;
 
-class NotMultiple extends \Multiples\AbstractMultiple
+class NotMultiple extends AbstractMultiple
 {
 
 }

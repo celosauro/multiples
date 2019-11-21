@@ -2,7 +2,7 @@
 
 namespace Multiples;
 
-abstract class AbstractMultiple
+abstract class AbstractMultiple implements MultipleInterface
 {
     protected $output;
 
