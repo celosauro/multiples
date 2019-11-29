@@ -1,5 +1,6 @@
 {
     "name": "mandrade/multiples",
+    "description": "Multiples of a number outputting 'Ping Pong' message",
     "type": "project",
     "authors": [
         {
