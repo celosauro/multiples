@@ -6,7 +6,7 @@ namespace Tests;
 use PHPUnit\Framework\TestCase;
 use Multiples\{Factory, AbstractMultiple, MultipleInterface, NotMultiple};
 
-class Multiples extends TestCase
+class MultiplesTest extends TestCase
 {
     public function testInstanceOf(): void
     {
