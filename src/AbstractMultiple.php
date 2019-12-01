@@ -4,15 +4,17 @@ namespace Multiples;
 
 abstract class AbstractMultiple implements MultipleInterface
 {
-    protected $output;
+    protected string $message;
+    protected OutputInterface $output;
 
-    public function __construct($output)
+    public function __construct(string $message, OutputInterface $output = null)
     {
-        $this->output = $output;
+        $this->message = $message;
+        $this->output = $output ?: new Output();
     }
 
-    public function output(): string
+    public function output()
     {
-        return $this->output;
+        return $this->output->write($this->message);
     }
 }

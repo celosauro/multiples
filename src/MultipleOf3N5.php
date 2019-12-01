@@ -4,10 +4,10 @@ namespace Multiples;
 
 class MultipleOf3N5 extends AbstractMultiple
 {
-    protected $output = 'Ping Pong';
+    protected string $message = 'Ping Pong';
 
     public function __construct()
     {
-        parent::__construct($this->output);
+        parent::__construct($this->message);
     }
 }

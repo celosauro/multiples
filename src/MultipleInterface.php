@@ -4,5 +4,5 @@ namespace Multiples;
 
 interface MultipleInterface
 {
-    public function output(): string;
+    public function output();
 }
